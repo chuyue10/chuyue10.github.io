@@ -33,6 +33,7 @@ p {
 
 li {
     display: inline;
+    margin-right: 10px;
 }
 
 .menu-item {
@@ -42,6 +43,7 @@ li {
 
 .menu-item:link {
     color: white;
+    transition-duration: 0.5s;
 }
 
 .menu-item:visited {
@@ -50,9 +52,15 @@ li {
 
 .menu-item:hover {
     color: red;
+    transition-duration: 0.5s;
 }
 
 .menu-item:active {
     color: red;
+}
+
+.section-header {
+    margin-top: 0px;
+    padding-top: 30px;
 }
 
