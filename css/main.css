@@ -22,27 +22,31 @@ p {
 #menu-bar {
     list-style-type: none;
     margin: 0;
-    padding: 7px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: black;
-    opacity: 0.7;
+    background: #421c52;
+    padding: 7px;
 }
 
 li {
     display: inline;
-    margin-right: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-item {
     text-decoration: none;
     text-transform: uppercase;
+    background: #421c52;
+    font-size: 18px;
+    padding: 7px;
+    margin: 0px;
 }
 
 .menu-item:link {
-    color: white;
+    background: #421c52;
     transition-duration: 0.5s;
 }
 
@@ -51,12 +55,12 @@ li {
 }
 
 .menu-item:hover {
-    color: red;
+    background: #732c7b;
     transition-duration: 0.5s;
 }
 
 .menu-item:active {
-    color: red;
+    background: #732c7b;
 }
 
 .section-header {
