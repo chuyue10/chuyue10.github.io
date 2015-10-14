@@ -21,13 +21,33 @@ body {
     line-height: 56px;
     height: 56px;
     display: inline-block;
-    margin: 0;
     padding: 0;
+    width: 100px;
+    text-align: center;
+    margin-left: -4px;
+    transition-duration: 0.5s;
+}
+
+.menu-bar li:hover {
+    background: #311b92;
+    transition-duration: 1s;
 }
 
 .menu-bar a {
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.material-icons.md-24 {
+    color: white;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+#home {
+    width: 56px;
 }
