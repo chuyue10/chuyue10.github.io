@@ -1,7 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background: white;
+    background: #f1f1f1;
+}
+
+#content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
 }
 
 .menu-bar ul {
